@@ -1,7 +1,7 @@
 {
     "app": {
         "name": "Texteditor",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "build": "2025e2.01",
         "config": {
             "darkmode": false
