@@ -67,7 +67,7 @@ root = tk.Tk()
 root.title("Erweiterter Texteditor")
 root.state("zoomed")
 
-icon_path = os.path.abspath("src/ressources/icon.ico")
+icon_path = os.path.join(os.path.dirname(__file__), "resources", "icon.ico")
 try:
     root.iconbitmap(icon_path)
 except Exception as e:
