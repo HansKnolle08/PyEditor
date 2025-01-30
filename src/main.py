@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox, simpledialog, ttk
+from tkinter import filedialog, messagebox
 import os
 
 def new_file():
@@ -65,7 +65,7 @@ def change_font_size(event=None):
 
 root = tk.Tk()
 root.title("Erweiterter Texteditor")
-root.state("zoomed")
+root.state("normal")
 
 icon_path = os.path.join(os.path.dirname(__file__), "resources", "icon.ico")
 try:
